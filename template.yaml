@@ -21,7 +21,6 @@ spec:
       - use_logrus_logging
       - use_viper_config
       - use_ci
-      - use_cobra_cmd
     properties:
       component_id:
         title: Name
