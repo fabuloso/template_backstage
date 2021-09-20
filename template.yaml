@@ -1,12 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
-  name: golang-starter
-  title: Golang Microservice
+  name: my-template
+  title: Template Mio
   description: Create a Golang repo with this template built by members of the Go community
   tags:
     - experimental
-    - go
 spec:
   owner: web@example.com
   templater: cookiecutter
