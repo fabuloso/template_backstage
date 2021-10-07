@@ -4,7 +4,7 @@ kind: Template
 metadata:
   name: my-custom-template
   title: My Custom Template
-  description: Create a new custom project
+  description: Create a new rust project
   tags:
     - recommended
     - techdocs
@@ -17,6 +17,7 @@ spec:
     - title: Fill in some steps
       required:
         - name
+        - rust_edition
         - description
       properties:
         name:
@@ -27,9 +28,9 @@ spec:
           ui:options:
             rows: 5
         rust_edition:
-          title: Name
+          title: Rust Edition
           type: string
-          description: Unique name of the component
+          description: The edition of Rust you need (2018, 2021)
           ui:autofocus: true
           ui:options:
             rows: 5

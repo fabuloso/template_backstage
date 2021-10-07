@@ -1,5 +1,5 @@
 [package]
-name = "${{values.name | dump}}"
+name = "${{values.name}}"
 version = "0.1.0"
 edition = "${{values.rust_edition}}"
 
